@@ -2,13 +2,6 @@
 repositories 
 {
 	mavenLocal()
-	maven {
-		credentials {
-			username "admin"
-			password "AAnexy11!!"
-		}
-		  url ("http://10.103.138.54:8081/nexus/content/groups/public")
-	}
 	jcenter()
 }
 
@@ -17,13 +10,6 @@ buildscript
 	repositories
 	{
 		mavenLocal()
-		maven {
-			credentials {
-				username "admin"
-				password "AAnexy11!!"
-			}
-			  url ("http://10.103.138.54:8081/nexus/content/groups/public")
-		}
 		jcenter()
     }
 	dependencies 
