@@ -1,18 +1,20 @@
 
-repositories 
+repositories
 {
 	mavenLocal()
 	jcenter()
+	mavenCentral()
 }
 
-buildscript 
+buildscript
 {
 	repositories
 	{
 		mavenLocal()
 		jcenter()
+		mavenCentral()
     }
-	dependencies 
+	dependencies
 	{
         classpath("net.serenity-bdd:serenity-gradle-plugin:1.0.56")
     }
@@ -20,6 +22,7 @@ buildscript
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
 	compile 'net.serenity-bdd:serenity-junit:1.0.56'
@@ -47,7 +50,3 @@ test {
 	}
 }
 gradle.startParameter.continueOnFailure = true
-
-
-
-

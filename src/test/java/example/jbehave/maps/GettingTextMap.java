@@ -18,7 +18,7 @@ public class GettingTextMap
     public void givenISelectMainSideMenu(String string) 
     {
 		wikiHomePage.open();
-		wikiHomePage.searchFor(string);////
+		wikiHomePage.searchFor(string);
     }
     
 	@When("i click on the link on with text '$string'")

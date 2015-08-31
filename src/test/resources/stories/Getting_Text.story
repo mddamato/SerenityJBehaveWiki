@@ -1,9 +1,7 @@
-Sample story
+Finding a link with certain text
 
 Narrative:
-In order to communicate effectively to the business some functionality
-As a development team
-I want to use Behaviour-Driven Development
+Finding a link on the page and then clicking on it
 					 
 Scenario:  A scenario is a collection of executable steps of different type
 Given i am on the 'Nissan GT-R' article
